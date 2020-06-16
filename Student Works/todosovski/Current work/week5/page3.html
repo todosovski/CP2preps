@@ -1,0 +1,82 @@
+<html>
+    <head>
+      <title>Register</title>   
+      <style type="text/css">
+          body{
+              background-color: aliceblue;
+          }
+          h2{
+              text-align: center;
+              color: solid black;
+              font-size: 30px;
+              font-family: Arial;
+          }
+          a{
+                border: 3px solid black;
+                background-color: yellow;
+                color:  black;
+                font-family: sans-serif;
+                width: 10%;
+                padding: 5px;
+                float: left;
+            
+            }
+        
+        </style>    
+    </head>
+    <body>
+        <h2>Become a volunteer</h2>
+        <form action="page5.html" method="post">
+            <fieldset>
+                <legend>Personal info</legend>
+            <label for="fname">Enter the first name:</label>
+            <input type="text" id="fname" name="name"><br><br>
+            <label for="mname">Enter the middle name:</label>
+            <input type="text" id="mname" name="name"><br><br>
+            <label for="lname">Enter the last name:</label>
+            <input type="text" id="lname" name="name"><br><br>
+                
+            </fieldset>
+            <fieldset>
+               <legend>Demographic:</legend>
+                 <label for="birthday">Birthday</label>
+                <input type="date" id="birthday" name="birthday"><br>
+                Gender: <br>
+              <input type="radio" id="male" name="gender" value="male">
+               <label for="male">Male!</label>
+            <br>
+              <input type="radio" id="female" name="gender" value="female">
+               <label for="female">Female!</label><br>
+                <label for="place">Enter your place of birth:</label>
+                <input type="text" id="place" name="place">
+            </fieldset>
+            <fieldset>
+              <legend>Account info</legend>
+                <label for="uname">Enter your username: </label>
+                <input type="text" id="uname" name="account"><br> <br>
+                <label for="pass">Enter your password: </label>
+                <input type="password" id="pass" name="account"><br> <br>
+                <label for="pass">Confirm Password</label>
+                <input type="password" id="pass" name="account"><br> <br>
+                <label for="mail">Enter your e-mail adress: </label>
+                <input type="text" id="mail" name="account"><br> <br>
+                <label for="mail">Confirm you e-mail adress: </label>
+                <input type="text" id="mail" name="account">
+                
+            </fieldset>
+            
+            Why do you want to join? 
+            <br>
+            <textarea name="whyessay" rows="20" cols="30">Enter text here....</textarea><br>
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor"><br><br>
+        
+        
+        
+        
+        <input type="submit" name="submit" value="Submit">
+        </form>    
+        
+        
+    </body>
+</html>
